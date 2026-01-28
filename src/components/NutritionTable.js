@@ -11,7 +11,7 @@ function NutritionTable({ nutrition }) {
     return null;
   }
 
-  const { food_name, serving, nutrients } = nutrition;
+  const { serving, nutrients } = nutrition;
 
   return (
     <div className="nutrition-section">

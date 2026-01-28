@@ -43,7 +43,7 @@ function ChatMessage({ message, isTyping = false }) {
     text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
     // Convert bullet points
-    text = text.replace(/^[•\-\*]\s/gm, '<br/>• ');
+    text = text.replace(/^[•\-*]\s/gm, '<br/>• ');
 
     // Convert numbered lists
     text = text.replace(/^\d+\.\s/gm, (match) => '<br/>' + match);

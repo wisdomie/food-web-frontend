@@ -6,7 +6,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { getProfileOptions } from '../services/api';
 
 const HEALTH_GOALS = [
   { value: 'lose_weight', label: 'Lose Weight' },
